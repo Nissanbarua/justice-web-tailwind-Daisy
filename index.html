@@ -328,42 +328,58 @@
           </p>
         </div>
         <div class="grid grid-cols-2 space-x-8">
-          <div class="grid grid-cols-2 ">
-            <div class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-r-2 border-b-2  ">
-              <img src="./images/address.png" alt="">
+          <div class="grid grid-cols-2">
+            <div
+              class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-r-2 border-b-2"
+            >
+              <img src="./images/address.png" alt="" />
               <h4 class="font-bold text-2xl">Address</h4>
-              <p>A108 Adam Street,<br>
-                New York, NY 535022</p>
+              <p>
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
             </div>
-            <div class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-b-2">
-              <img src="./images/call.png" alt="">
+            <div
+              class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-b-2"
+            >
+              <img src="./images/call.png" alt="" />
               <h4 class="font-bold text-2xl">Call Us</h4>
-              <p>A108 Adam Street,<br>
-                New York, NY 535022</p>
+              <p>
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
             </div>
-            <div class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-r-2">
-              <img src="./images/email.png" alt="">
+            <div
+              class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center border-r-2"
+            >
+              <img src="./images/email.png" alt="" />
               <h4 class="font-bold text-2xl">Email Us</h4>
-              <p>A108 Adam Street,<br>
-                New York, NY 535022</p>
+              <p>
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
             </div>
-            <div class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center">
-              <img src="./images/time.png" alt="">
+            <div
+              class="bg-[#F3F3F3] p-4 flex flex-col justify-center items-center text-center"
+            >
+              <img src="./images/time.png" alt="" />
               <h4 class="font-bold text-2xl">Working Hours</h4>
-              <p>A108 Adam Street,<br>
-                New York, NY 535022</p>
+              <p>
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
             </div>
           </div>
           <div class="space-y-7">
             <input
               type="text"
               placeholder="Your Name"
-              class="input input-bordered w-full  bg-[#F3F3F3] text-[#707070]"
+              class="input input-bordered w-full bg-[#F3F3F3] text-[#707070]"
             />
             <input
               type="email"
               placeholder="Your Email"
-              class="input input-bordered w-full  bg-[#F3F3F3] text-[#707070]"
+              class="input input-bordered w-full bg-[#F3F3F3] text-[#707070]"
             />
             <input
               type="text"
@@ -372,13 +388,61 @@
             />
             <textarea
               placeholder="Bio"
-              class="textarea textarea-bordered textarea-md  w-full bg-[#F3F3F3] text-[#707070]"
+              class="textarea textarea-bordered textarea-md w-full bg-[#F3F3F3] text-[#707070]"
             ></textarea>
-            <button class="w-full  bg-[#B68C5A] p-2 rounded-lg text-white">Send Message</button>
+            <button class="w-full bg-[#B68C5A] p-2 rounded-lg text-white">
+              Send Message
+            </button>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer bg-black text-white p-10">
+      <aside>
+        <img src="./images/logo.png" alt="" />
+        <p>
+          There are many variations of passages <br />of Lorem Ipsum
+          available,<br />
+          but the majority have suffered alteration <br />
+          in some form, by injected humour.
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Usefull Link</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Contact Now</h6>
+        <a class="link link-hover"
+          >555 4th 5t NW, Washington <br />
+          DC 20530, United States</a
+        >
+        <a class="link link-hover">+88 01750 000 000</a>
+        <a class="link link-hover"> +88 01750 000 000</a>
+        <a class="link link-hover">
+          info@gmail.com</a>
+        <a class="link link-hover">info@gmail.com</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-white">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="input input-bordered join-item"
+            />
+            <button class="btn bg-[#B68C5A] join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
